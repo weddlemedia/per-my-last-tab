@@ -128,6 +128,24 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
+  // ---- Footer Tip (show once) ----
+
+  const FOOTER_TIP_KEY = "pmlt-footer-tip-dismissed";
+  const footerTip = document.getElementById("footer-tip");
+
+  chrome.storage.local.get(FOOTER_TIP_KEY).then((result) => {
+    if (!result[FOOTER_TIP_KEY]) {
+      footerTip.classList.remove("hidden");
+    }
+  });
+
+  document.getElementById("footer-tip-close").addEventListener("click", () => {
+    footerTip.classList.add("hidden");
+    chrome.storage.local.set({ [FOOTER_TIP_KEY]: true });
+  });
+
+  // ---- Top Sites ----
+
   if (chrome && chrome.topSites) {
     chrome.topSites.get().then((sites) => {
       const container = document.getElementById("top-sites");

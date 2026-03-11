@@ -102,14 +102,6 @@ blockquote {
   animation: fadeUp 0.6s ease 0.2s forwards;
 }
 
-blockquote::before {
-  content: "\201C";
-}
-
-blockquote::after {
-  content: "\201D";
-}
-
 /* ---- Search Bar ---- */
 
 #search-form {

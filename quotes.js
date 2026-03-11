@@ -1,204 +1,54 @@
 const quotes = [
   {
-    text: "Per my last email, which you clearly did not read.",
-  },
-  {
-    text: "Let's circle back to this after we've had a chance to not think about it at all.",
-  },
-  {
-    text: "We don't have the bandwidth, but we do have the audacity.",
-  },
-  {
-    text: "This could have been an email. That email could have been silence.",
-  },
-  {
-    text: "Synergy is just a word we use when no one knows whose job this is.",
-  },
-  {
-    text: "Please unmute yourself. Actually, never mind. Stay muted. Forever.",
-  },
-  {
-    text: "Let's take this offline and never speak of it again.",
-  },
-  {
-    text: "I'm not micromanaging. I'm just macro-concerned with micro-details.",
-  },
-  {
-    text: "We're not firing people. We're optimizing our human resource allocation.",
-  },
-  {
-    text: "I don't have an opinion, but I do have several strong concerns.",
-  },
-  {
-    text: "Let's put a pin in it. Then lose the pin. Then forget the 'it.'",
-  },
-  {
-    text: "Moving forward, let's pretend this never happened.",
-  },
-  {
-    text: "Great question. Let's table it until it becomes someone else's problem.",
-  },
-  {
-    text: "I'll follow up on this, by which I mean I will absolutely not follow up on this.",
-  },
-  {
-    text: "We need to be more proactive about being reactive.",
-  },
-  {
-    text: "Let's leverage our core competencies to achieve a net-zero outcome.",
-  },
-  {
-    text: "I think we're aligned. I have no idea what we're aligned on, but the vibes are right.",
-  },
-  {
-    text: "Can everyone see my screen? No? Perfect. I'll describe it poorly.",
-  },
-  {
-    text: "We're pivoting. Again. Think of it as corporate ballet.",
-  },
-  {
-    text: "That's a great idea. We should definitely not do it.",
-  },
-  {
-    text: "I'm looping in Karen. Karen will know what to do. Karen always knows.",
-  },
-  {
-    text: "Our open-door policy is very much a closed-door situation.",
-  },
-  {
-    text: "The deadline was yesterday, so technically we're already in the future.",
-  },
-  {
-    text: "We don't have problems. We have 'opportunities for improvement' that are on fire.",
-  },
-  {
-    text: "I appreciate your transparency. Please stop being transparent.",
-  },
-  {
-    text: "This is a judgment-free zone. I am, however, taking notes.",
-  },
-  {
-    text: "You're on mute. That's the most productive you've been all week.",
-  },
-  {
-    text: "Let's think outside the box. Not that far outside. Get back in the box.",
-  },
-  {
-    text: "Collaboration means doing other people's work while they're in meetings about collaboration.",
-  },
-  {
-    text: "I don't want to point fingers, but I've prepared a slide deck of fingers.",
-  },
-  {
-    text: "We're a family here. A deeply dysfunctional, meeting-addicted family.",
-  },
-  {
-    text: "Happy Friday! See you at the mandatory fun event on Saturday.",
-  },
-  {
-    text: "Let's workshop this. And by 'workshop,' I mean argue politely for two hours.",
-  },
-  {
-    text: "Failure is not an option. It's a recurring calendar event.",
-  },
-  {
-    text: "I'm just thinking out loud. Please do not hold me accountable for thinking.",
-  },
-  {
-    text: "Our values are on the wall. Literally. That's where they live. Just on the wall.",
-  },
-  {
-    text: "Thanks for your patience, which I have decided you are exhibiting whether you are or not.",
-  },
-  {
-    text: "As per the agenda no one read, let's begin.",
-  },
-  {
-    text: "I'll keep this brief. Narrator: He did not keep this brief.",
-  },
-  {
-    text: "Work-life balance is very important to us. That's why we email you at 11 PM.",
-  },
-  {
-    text: "We value your feedback. We will now place it gently in the void.",
-  },
-  {
-    text: "This quarter's goal is to exceed last quarter's goal, which we also did not meet.",
-  },
-  {
-    text: "I'm going to push back on this. Gently. Like a revolving door of dissent.",
-  },
-  {
-    text: "Can we streamline this process? By 'streamline,' I mean add four more approvals.",
-  },
-  {
-    text: "Let's be solution-oriented. Step one: admit the solution is coffee.",
-  },
-  {
-    text: "The org chart is more of an org suggestion.",
-  },
-  {
-    text: "I have another hard stop in five minutes. All my stops are hard. My life is hard stops.",
-  },
-  {
-    text: "We need to do more with less. And by less, I mean significantly less. Like, nothing.",
-  },
-  {
-    text: "That's above my pay grade. Everything is above my pay grade.",
-  },
-  {
-    text: "Let's not reinvent the wheel. Let's just have a meeting about the wheel.",
-  },
-  {
-    text: "Your email found me well. It did not. But here we are.",
-  },
-  {
-    text: "We should sync up. And by sync, I mean stare at each other on Zoom.",
-  },
-  {
-    text: "There's no 'I' in team, but there are four in 'platitude-driven initiatives.'",
-  },
-  {
-    text: "I'll take that as an action item. It will live in my notes, undisturbed, forever.",
-  },
-  {
-    text: "To be frank, I'd rather be anyone other than Frank right now.",
-  },
-  {
-    text: "We should align on the deliverables. Which is corporate for 'who's actually doing this?'",
-  },
-  {
-    text: "New policy: all ideas must be submitted via a form no one can find.",
-  },
-  {
-    text: "The printer is jammed. Much like my career.",
-  },
-  {
-    text: "Let's double-click on that. Not literally. We've been over this, Steve.",
-  },
-  {
-    text: "I'm cautiously optimistic. Heavy on the cautious. Light on the optimistic.",
-  },
-  {
-    text: "You're the reason the 'Are you sure?' button exists.",
-  },
-  {
     text: "If confidence were skill, you'd be unstoppable.",
+  },
+  {
+    text: "I admire how wrong you are with such enthusiasm.",
+  },
+  {
+    text: "You're not a problem solver… you're a problem explorer.",
+  },
+  {
+    text: "You make simple things… impressively complicated.",
+  },
+  {
+    text: "You're living proof that trial and error mostly involves error.",
+  },
+  {
+    text: "You didn't think that through, but you did say it confidently.",
   },
   {
     text: "You bring a very unique energy to bad ideas.",
   },
   {
+    text: "You're like a beta test for common sense.",
+  },
+  {
+    text: "You've mastered the art of being confidently mistaken.",
+  },
+  {
     text: "You're not lost — you're aggressively exploring the wrong direction.",
+  },
+  {
+    text: "If effort counted more than results, you'd be legendary.",
   },
   {
     text: "You make chaos look like a strategic plan.",
   },
   {
+    text: "Your ideas are… memorable. For all the wrong reasons.",
+  },
+  {
     text: "You're the human equivalent of clicking 'remind me later.'",
   },
   {
+    text: "You're not making mistakes — you're building a collection.",
+  },
+  {
     text: "You approach problems the way a cat approaches keyboards.",
+  },
+  {
+    text: "You've turned guessing into a lifestyle.",
   },
   {
     text: "You're the reason meetings could have been emails.",
@@ -207,192 +57,273 @@ const quotes = [
     text: "You make 'winging it' look like a full-time job.",
   },
   {
+    text: "You have a rare talent for missing the point.",
+  },
+  {
+    text: "You're not inefficient — you're creatively unproductive.",
+  },
+  {
+    text: "You're the reason warning labels exist.",
+  },
+  {
+    text: "You've really committed to that bad decision.",
+  },
+  {
+    text: "You make confusion look effortless.",
+  },
+  {
+    text: "You've achieved new levels of 'close enough.'",
+  },
+  {
     text: "You're like a GPS that confidently leads into a lake.",
+  },
+  {
+    text: "You didn't fail — you just explored every wrong option first.",
+  },
+  {
+    text: "You're the motivational poster for what not to do.",
   },
   {
     text: "You're proof that enthusiasm and accuracy are unrelated.",
   },
   {
-    text: "I'd love to help, but I'm at capacity. My capacity is zero.",
+    text: "You're not making mistakes. You're making content.",
   },
   {
-    text: "Let me check my calendar. Oh look, it's full of regret.",
+    text: "You've turned guessing into a professional skill.",
   },
   {
-    text: "The WiFi is down. Productivity has never been higher.",
+    text: "I appreciate the confidence. The reasoning… less so.",
   },
   {
-    text: "I survived another meeting that should have been a Slack message.",
+    text: "You're not confused — you're creatively misunderstanding.",
   },
   {
-    text: "My out-of-office reply is my personality now.",
+    text: "You make 'close enough' look like a strategy.",
   },
   {
-    text: "Please refer to the documentation. There is no documentation.",
+    text: "You're the reason the undo button works overtime.",
   },
   {
-    text: "The sprint is over. We are still running.",
+    text: "You didn't miss the point — you launched past it.",
   },
   {
-    text: "I've been 'looped in' so many times I'm basically a knot.",
+    text: "You're boldly going where logic refuses to follow.",
   },
   {
-    text: "The stakeholders have spoken. Nobody understood them.",
+    text: "You've managed to complicate something impressively simple.",
   },
   {
-    text: "We're agile. We pivot so fast we're basically spinning.",
+    text: "You're like a progress bar that never quite finishes.",
   },
   {
-    text: "Just following up on my follow-up to my follow-up.",
+    text: "You've brought a refreshing lack of accuracy to the situation.",
   },
   {
-    text: "I put the 'pro' in procrastination and the 'con' in conference call.",
+    text: "You're not wrong often, but when you are… it's spectacular.",
   },
   {
-    text: "Our roadmap is more of a road suggestion.",
+    text: "You're the human version of 'skip tutorial.'",
   },
   {
-    text: "The team-building exercise built nothing but resentment.",
+    text: "You have a real gift for almost getting it.",
   },
   {
-    text: "I'm not arguing. I'm passionately presenting alternative facts.",
+    text: "You're not lost — you're aggressively improvising.",
   },
   {
-    text: "We need to have a meeting to discuss why we have so many meetings.",
+    text: "You're operating on pure vibes at this point.",
   },
   {
-    text: "The only thing we ship on time is the blame.",
+    text: "You're the reason step two has to be explained twice.",
   },
   {
-    text: "I've CC'd everyone because misery loves company.",
+    text: "You're doing your best, which is… statistically interesting.",
   },
   {
-    text: "My job title changes quarterly. My job doesn't.",
+    text: "You've found a way to miss the obvious with style.",
   },
   {
-    text: "We're disrupting the industry. The industry hasn't noticed.",
+    text: "You make chaos look intentional.",
   },
   {
-    text: "The budget was cut. The expectations were not.",
+    text: "You're not inefficient — you're exploring alternatives nobody asked for.",
   },
   {
-    text: "I have a degree for this. It has not helped.",
+    text: "You've reached a new level of 'technically trying.'",
   },
   {
-    text: "The all-hands meeting was neither all nor hands.",
+    text: "You approach plans the way toddlers approach walls.",
   },
   {
-    text: "Our culture deck is a work of fiction.",
+    text: "You're proof that determination doesn't require direction.",
   },
   {
-    text: "I didn't choose the spreadsheet life. The spreadsheet life chose me.",
+    text: "You've got big 'figure it out later' energy.",
   },
   {
-    text: "We're data-driven. The data says we should stop.",
+    text: "You're running on pure confidence and zero diagnostics.",
   },
   {
-    text: "Please do the needful. No one knows what the needful is.",
+    text: "You're like a shortcut that takes longer.",
   },
   {
-    text: "The Q4 forecast is optimistic. The Q4 reality is not.",
+    text: "You didn't break it — you just introduced… complications.",
   },
   {
-    text: "I've been voluntold for this project.",
+    text: "You're not improvising — you're inventing new problems.",
   },
   {
-    text: "My inbox is a graveyard of good intentions.",
+    text: "You've really leaned into the wrong answer.",
   },
   {
-    text: "We're leaning in. We've been leaning so long we're horizontal.",
+    text: "You're the reason common sense occasionally calls in sick.",
   },
   {
-    text: "The open floor plan was designed by someone who hates concentration.",
+    text: "You're giving 100%… of something.",
   },
   {
-    text: "I'm on a call. I'm always on a call. The call never ends.",
+    text: "You've got a talent for solving the wrong problem.",
   },
   {
-    text: "Our mission statement has more buzzwords than meaning.",
+    text: "You're moving fast and misunderstanding things.",
   },
   {
-    text: "The reorg will fix everything. Just like the last four reorgs.",
+    text: "You're like a search result from page 12.",
   },
   {
-    text: "I peaked at 'employee of the month' in 2019. It's been downhill since.",
+    text: "You're doing exactly what nobody suggested.",
   },
   {
-    text: "The Slack channel has 47 unread messages. None of them matter.",
+    text: "You've turned overthinking into an extreme sport.",
   },
   {
-    text: "We're building the plane while flying it. The passengers are screaming.",
+    text: "You're not behind — you're creatively off schedule.",
   },
   {
-    text: "Casual Friday is the only thing keeping morale above zero.",
+    text: "You're not confused. You're exploring alternative realities.",
   },
   {
-    text: "The company retreat was neither a retreat nor relaxing.",
+    text: "You're the reason the 'try again' button exists.",
   },
   {
-    text: "My laptop has more meetings than I do.",
+    text: "Go ahead. Prove everyone right.",
   },
   {
-    text: "We've replaced strategy with vibes. The vibes are concerning.",
+    text: "Today's a great day to disappoint fewer people.",
   },
   {
-    text: "The intern asked a question no VP could answer. We promoted the intern. Just kidding. We ignored the question.",
+    text: "Dream big. Fail publicly.",
   },
   {
-    text: "Our competitive advantage is that we're too confused to quit.",
+    text: "You've got this. Probably not, but go ahead.",
   },
   {
-    text: "I've been 'empowered' to do more work for the same pay.",
+    text: "Believe in yourself. Nobody else does.",
   },
   {
-    text: "The town hall raised more questions than it answered. As is tradition.",
+    text: "If you can't succeed, at least fail memorably.",
   },
   {
-    text: "We don't have silos. We have 'centers of excellence' that don't talk to each other.",
+    text: "The only thing standing between you and success is… you.",
   },
   {
-    text: "The only KPI I'm hitting is caffeine consumption.",
+    text: "Try your best. We're all curious how that'll go.",
   },
   {
-    text: "I was told there would be growth opportunities. They meant the workload.",
+    text: "Great things never come from comfort zones. Neither do your ideas.",
   },
   {
-    text: "The CEO's LinkedIn post got more engagement than our product launch.",
+    text: "Today's goal: lower expectations gently.",
   },
   {
-    text: "We're customer-obsessed. The customers are unaware.",
+    text: "You can do anything… just not well.",
   },
   {
-    text: "My five-year plan is to survive the next five meetings.",
+    text: "Push yourself. Nobody else is pushing you.",
   },
   {
-    text: "The suggestion box has been replaced by a recycling bin. Same energy.",
+    text: "Don't give up. It's entertaining.",
   },
   {
-    text: "I'm not quiet quitting. I'm loud staying.",
+    text: "Aim for the stars. Missing them is kind of your thing.",
   },
   {
-    text: "Our 'quick sync' is now in its second hour.",
+    text: "The journey of a thousand miles begins with you messing up step one.",
   },
   {
-    text: "The only thing transparent around here is the glass conference room.",
+    text: "Failure builds character. You must be full of it by now.",
   },
   {
-    text: "We've achieved inbox zero. By deleting everything unread.",
+    text: "Be the best version of yourself. We're all waiting.",
   },
   {
-    text: "The performance review reviewed nothing and improved less.",
+    text: "Your potential is… technically still potential.",
   },
   {
-    text: "I was today years old when I realized 'ASAP' means 'whenever.'",
+    text: "Chase your dreams. They're running for a reason.",
   },
   {
-    text: "The free snacks are the most honest part of our compensation package.",
+    text: "You're closer to success than yesterday. Still far, but closer.",
   },
   {
-    text: "We put the 'fun' in 'no funding.'",
+    text: "Work hard in silence. Mostly so nobody sees the mistakes.",
+  },
+  {
+    text: "Every expert was once a beginner. Some stayed there longer.",
+  },
+  {
+    text: "You miss 100% of the chances you misunderstand.",
+  },
+  {
+    text: "Don't stop until you're proud. So… maybe keep going.",
+  },
+  {
+    text: "Success is a journey. You're currently sightseeing.",
+  },
+  {
+    text: "You're capable of great things. Statistically speaking.",
+  },
+  {
+    text: "Your breakthrough is coming. Eventually. Probably.",
+  },
+  {
+    text: "Small steps lead to big results. Try taking one.",
+  },
+  {
+    text: "If at first you don't succeed, you're right on schedule.",
+  },
+  {
+    text: "Hard work beats talent. Luckily talent isn't the issue.",
+  },
+  {
+    text: "Stay focused. Disappointment takes effort.",
+  },
+  {
+    text: "Be fearless. You've ignored good advice before.",
+  },
+  {
+    text: "One day or day one. Either way you'll complain.",
+  },
+  {
+    text: "Rise and grind. Or just rise. Baby steps.",
+  },
+  {
+    text: "Progress is progress. Even yours.",
+  },
+  {
+    text: "Greatness takes time. In your case… a lot of time.",
+  },
+  {
+    text: "Start where you are. That explains a lot.",
+  },
+  {
+    text: "Your future self is watching. Probably concerned.",
+  },
+  {
+    text: "Motivation gets you started. Confusion keeps you going.",
+  },
+  {
+    text: "You're doing amazing. Statistically someone has to.",
   },
 ];
